@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sigma</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="encabezado container-md px-lg-5">
+        <figure class="logo row m-4 pt-3 d-flex justify-content-center">
+            <img src="/img/sigma-logo.png" alt="Logo Sigma">
+        </figure>
+
+        <div class="secEncabezado px-lg-5">
+            <h2 class="titulo">Prueba de desarrollo Sigma</h2>
+            <p class="mx-lg-5 my-lg-4 px-lg-5 m-4 ">Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book.</p>
+        </div>
+    </header>
+
+    <div class="d-lg-flex align-items-center container mt-lg-4">
+        <figure class="col-lg-6">
+            <img class="w-100 p-lg-5" src="/img/sigma-image.png" alt="ilustracion mobile">
+        </figure>
+        <div class="formulario col-lg-6 ">
+            <form action="" class="px-5 py-5 shadow-lg bg-white rounded-lg" id="formularioRegistro">
+                <div class="form-group d-block">
+                    <label for="departamento">Departamento*</label>
+                    <select name="departamento" id="fdepartamento" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ciudad">Ciudad*</label>
+                    <select name="ciudad" id="fciudad" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="nombre">Nombre*</label>
+                    <input id="fname" class="form-control" type="text" id="nombre" name="nombre"
+                        placeholder="Pepito de Jesus">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email*</label>
+                    <input id="femail" class="form-control" type="text" id="email" name="email"
+                        placeholder="Pepitodejesus@gmail.com">
+                </div>
+                <div class="mt-4 d-flex justify-content-center">
+                    <input class="boton btn border rounded-pill text-white px-5 py-3" type="submit" value="ENVIAR">
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/popper.js"></script>
+    <script src="/js/registro.js"></script>
+
+</body>
+
+</html>

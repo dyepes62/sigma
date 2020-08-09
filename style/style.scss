@@ -1,0 +1,52 @@
+$colorTitulos: black;
+$colorTexto:#747474;
+$colorBotones: #dd3c64;
+$fuenteLetra: 'Roboto',
+sans-serif;
+
+@import "../bootstrap/bootstrap-4.5.1/scss/bootstrap.scss";
+
+* {
+    font-family: $fuenteLetra;
+}
+
+.secEncabezado {
+    display: flex;
+    flex-direction: column;
+
+    .titulo {
+
+        font-weight: 700;
+        text-align: center;
+        color: $colorTitulos;
+
+    }
+
+    p {
+
+        text-align: center;
+        font-weight: 500;
+        color: $colorTexto;
+        line-height: normal;
+        font-size: medium;
+
+
+    }
+}
+
+.formulario {
+    box-shadow: $colorTexto;
+
+    .form-group {
+        label {
+            color: $colorTitulos;
+            font-weight: 700;
+        }
+
+    }
+
+    .boton {
+        background-color: $colorBotones;
+        font-size: medium;
+    }
+}
